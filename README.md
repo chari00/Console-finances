@@ -10,98 +10,63 @@
 6. Resources
 7. License
 
-## Description
+## 1. Description
 
-## Visual
+First JavaScript project analyzing financial record of a company.
 
-### Bootstrap Portfolio with Media queries max-width of 900px
+## 2. Visual
 
-<img src="./images/bootstrap-mediaqueries-900px.png" alt="image of my portfolio page with media queries function background turns to blue and pink at max-width of 900px"/>
+### Image of the project in console log view.
 
-## Built with:
+<img src="./images/console-finances.png"
 
-- Media Queries
-- Flexbox
-- CSS Grid
-- Bootstrap
-- HTML
-- CSS
+## 3. Built with:
 
-## What I learned
+- javascript
+- html
+
+## 4. What I learned
 
 To see how you can add code snippets, see below:
 
-### Media query
+- To define a variable;
 
-@media screen and (max-width: 450px) {
+let count = finances.length;
+let monthlyDifferenceTotal = 0;
+let greatestIncrease = 0;
+let greatestDecrease = 0;
+let greatestIncreaseMonth = "Date";
 
-- {
-  background-color: yellowgreen;
-  }
-  }
+- To create a for loop;
 
-### CSS Grid
-
-.grid-templateAreas {
-display: grid;
-background-position: center;
-background-size: cover;
-background-repeat: no-repeat;
-cursor: pointer;
-border: 5px aquamarine solid;
-height: 380px;
+for (let index = 0; index < array.length; index++) {
+const element = array[index];
 }
 
-### Flexbox
+- To print in console;
 
-ul {
-display: flex;
-justify-content: flex-end;
-flex-wrap: wrap;
-background-color: black;
-}
+console.log("Average Change: " + averageTotal);
+console.log(
+"Greatest Increase: " + greatestIncreaseMonth + ": $" + greatestIncrease
+);
 
-### Bootstrap
-
-< div class="jumbotron jumbotron-fluid">
-
-< div class="container">
-< h1 class="display-4">Fluid jumbotron</h1>
-< p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-< /div>
-< /div>
-
-< div class="card" style="width: 18rem;">
-
-< div class="card-body">
-< h5 class="card-title">Card title</h5>
-< h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-< p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-< a href="#" class="card-link">Card link</a>
-< a href="#" class="card-link">Another link</a>
-< /div>
-< /div>
-
-## Links
+## 5. Links
 
 ### Source code location
 
-https://github.com/chari00/Bootstrap-Portfolio
+https://github.com/chari00/Console-finances
 
 ### Website URL
 
-https://chari00.github.io/Bootstrap-Portfolio/
+https://chari00.github.io/Console-finances/
 
-## Resources
+## 6. Resources
 
 ### URL for resources
 
-- https://getbootstrap.com/docs/4.3/components/jumbotron/
+- https://www.javascripttutorial.net/javascript-multidimensional-array/
+- https://stackoverflow.com/questions/3762589/fastest-javascript-summation
 
-- https://www.w3schools.com/howto/howto_css_contact_form.asp
-
-- https://fontawesome.com/icons
-
-## License
+## 7. License
 
 This project is licensed by MIT.
