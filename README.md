@@ -18,7 +18,7 @@ First JavaScript project analyzing financial record of a company.
 
 ### Image of the project in console log view.
 
-<img src="./images/console-finances.png"
+<img src="./images/console-finances.png">
 
 ## 3. Built with:
 
