@@ -10,23 +10,47 @@
 6. Resources
 7. License
 
-## Description
+## 1. Description
 
-## Visual
+First JavaScript project analyzing financial record of a company.
 
-### Bootstrap Portfolio with Media queries max-width of 900px
+## 2. Visual
 
-<img src="./images/bootstrap-mediaqueries-900px.png" alt="image of my portfolio page with media queries function background turns to blue and pink at max-width of 900px"/>
+### Image of the project in console log view.
 
-## Built with:
+<img src="./images/console-finances.png"
 
--
+## 3. Built with:
 
-## What I learned
+- javascript
+- html
+
+## 4. What I learned
 
 To see how you can add code snippets, see below:
 
-## Links
+- To define a variable;
+
+let count = finances.length;
+let monthlyDifferenceTotal = 0;
+let greatestIncrease = 0;
+let greatestDecrease = 0;
+let greatestIncreaseMonth = "Date";
+
+- To create a for loop;
+
+for (let index = 0; index < array.length; index++) {
+const element = array[index];
+}
+
+- To print in console;
+
+console.log("Average Change: " + averageTotal);
+console.log(
+"Greatest Increase: " + greatestIncreaseMonth + ": $" + greatestIncrease
+);
+
+## 5. Links
 
 ### Source code location
 
@@ -36,12 +60,13 @@ https://github.com/chari00/Console-finances
 
 https://chari00.github.io/Console-finances/
 
-## Resources
+## 6. Resources
 
 ### URL for resources
 
--
+- https://www.javascripttutorial.net/javascript-multidimensional-array/
+- https://stackoverflow.com/questions/3762589/fastest-javascript-summation
 
-## License
+## 7. License
 
 This project is licensed by MIT.
