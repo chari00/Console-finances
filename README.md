@@ -46,9 +46,7 @@ const element = array[index];
 - To print in console;
 
 console.log("Average Change: " + averageTotal);
-console.log(
-"Greatest Increase: " + greatestIncreaseMonth + ": $" + greatestIncrease
-);
+console.log("Greatest Increase: " + greatestIncreaseMonth + ": $" + greatestIncrease);
 
 ## 5. Links
 
