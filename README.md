@@ -31,28 +31,28 @@ To see how you can add code snippets, see below:
 
 - To define a variable;
 
-let count = finances.length;
+    let count = finances.length;
 
-let monthlyDifferenceTotal = 0;
+    let monthlyDifferenceTotal = 0;
 
-let greatestIncrease = 0;
+    let greatestIncrease = 0;
 
-let greatestDecrease = 0;
+    let greatestDecrease = 0;
 
-let greatestIncreaseMonth = "Date";
+    let greatestIncreaseMonth = "Date";
 
 
 - To create a for loop;
 
-for (let index = 0; index < array.length; index++) {
-const element = array[index];
-}
+    for (let index = 0; index < array.length; index++) {
+    const element = array[index];
+    }
 
 - To print in console;
 
-console.log("Average Change: " + averageTotal);
+    console.log("Average Change: " + averageTotal);
 
-console.log("Greatest Increase: " + greatestIncreaseMonth + ": $" + greatestIncrease);
+    console.log("Greatest Increase: " + greatestIncreaseMonth + ": $" + greatestIncrease);
 
 ## 5. Links
 
