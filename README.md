@@ -30,24 +30,24 @@ First JavaScript project analyzing financial record of a company.
 To see how you can add code snippets, see below:
 
 - To define a variable;
-
+'
 let count = finances.length;
 let monthlyDifferenceTotal = 0;
 let greatestIncrease = 0;
 let greatestDecrease = 0;
 let greatestIncreaseMonth = "Date";
-
+'
 - To create a for loop;
-
+'
 for (let index = 0; index < array.length; index++) {
 const element = array[index];
 }
-
+'
 - To print in console;
-
+'
 console.log("Average Change: " + averageTotal);
 console.log("Greatest Increase: " + greatestIncreaseMonth + ": $" + greatestIncrease);
-
+'
 ## 5. Links
 
 ### Source code location
