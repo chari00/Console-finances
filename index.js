@@ -109,10 +109,10 @@ let greatestIncrease = 0;
 let greatestDecrease = 0;
 let currentAmount = 0;
 let averageTotal = 0;
-let greatestIncreaseMonth = "Date";
-let greatestDecreaseMonth = "Date";
+let greatestIncreaseMonth = "";
+let greatestDecreaseMonth = "";
 
-for (let i = 0; i < finances.length; i++) {
+for (let i = 0; i < count; i++) {
   if (i !== 0) {
     difference = finances[i][1] - finances[i - 1][1];
 
@@ -132,11 +132,13 @@ for (let i = 0; i < finances.length; i++) {
   monthlyDifferenceTotal = monthlyDifferenceTotal + difference;
 }
 
-averageTotal = monthlyDifferenceTotal / (finances.length - 1);
+averageTotal = monthlyDifferenceTotal / (count - 1);
+let numAverageTotal = averageTotal;
+numAverageTotal = numAverageTotal.toFixed(2);
 
 console.log("Total Months: " + count);
 console.log("Total: " + monthlyDifferenceTotal);
-console.log("Average Change: " + averageTotal);
+console.log("Average Change: " + numAverageTotal);
 console.log(
   "Greatest Increase: " + greatestIncreaseMonth + ": $" + greatestIncrease
 );
