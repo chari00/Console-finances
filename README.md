@@ -24,6 +24,7 @@ First JavaScript project analyzing financial record of a company.
 
 - javascript
 - html
+- style.css
 
 ## 4. What I learned
 
@@ -69,6 +70,9 @@ https://chari00.github.io/Console-finances/
 ### URL for resources
 
 - https://www.javascripttutorial.net/javascript-multidimensional-array/
+
+- https://www.stechies.com/javascript-round-two-decimal-places/
+
 - https://stackoverflow.com/questions/3762589/fastest-javascript-summation
 
 ## 7. License
