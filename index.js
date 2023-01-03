@@ -132,18 +132,18 @@ let numAverageTotal = averageTotal.toFixed(2);
 console.log("Financial Analysis");
 console.log("-------------------------------------");
 console.log("Total Months: " + count);
-console.log("Total: " + monthlyDifferenceTotal);
+console.log("Total:  $" + monthlyDifferenceTotal);
 
 // The average of the changes in Profit / Losses over the entire period.
 // (Total / Number of months)
-console.log("Average Change: " + numAverageTotal);
+console.log("Average Change: $" + numAverageTotal);
 
 // The greatest increase in profits(date and amount) over the entire period.
 console.log(
-  "Greatest Increase: " + greatestIncreaseMonth + ": $" + greatestIncrease
+  "Greatest Increase: " + greatestIncreaseMonth + "( $" + greatestIncrease + ")"
 );
 
 // The greatest decrease in losses(date and amount) over the entire period.
 console.log(
-  "Greatest Decrease: " + greatestDecreaseMonth + ": $" + greatestDecrease
+  "Greatest Decrease: " + greatestDecreaseMonth + "( $" + greatestDecrease + ")"
 );
