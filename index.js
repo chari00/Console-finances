@@ -129,7 +129,8 @@ for (let i = 0; i < count; i++) {
 averageTotal = monthlyDifferenceTotal / (count - 1);
 let numAverageTotal = averageTotal.toFixed(2);
 // numAverageTotal = numAverageTotal.toFixed(2);
-
+console.log("Financial Analysis");
+console.log("-------------------------------------");
 console.log("Total Months: " + count);
 console.log("Total: " + monthlyDifferenceTotal);
 
