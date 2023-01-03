@@ -51,9 +51,9 @@ To see how you can add code snippets, see below:
 
 - To print in console;
 
-    console.log("Average Change: " + averageTotal);
+    console.log("Average Change: $ " + averageTotal);
 
-    console.log("Greatest Increase: " + greatestIncreaseMonth + ": $" + greatestIncrease);
+    console.log("Greatest Increase: " + greatestIncreaseMonth + "( $" + greatestIncrease")");
 
 ## 5. Links
 
